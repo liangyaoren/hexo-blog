@@ -35,6 +35,9 @@ FROM
 ORDER BY
 	a.顺序 ASC
 ```
+
+<!-- more -->
+
 代码执行后：
 ![查询表名对应的表设计](./mysql-table-design-to-markdown-table/mysql-markdown-table.jpg)
 

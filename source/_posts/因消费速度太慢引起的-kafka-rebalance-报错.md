@@ -1,7 +1,8 @@
 ---
 title: 因消费速度太慢引起的 kafka rebalance 报错
 date: 2020-11-17 09:06:50
-tags: kafka
+tags: 踩坑
+categories: kafka
 ---
 之前项目使用 kafka 有个 rebalance 报错的问题，折腾了好一会，后来搞明白是怎么回事，记录一下。
 ## 1、报错信息

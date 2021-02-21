@@ -1,7 +1,8 @@
 ---
 title: 本地机器搭建 kafka 集群
 date: 2020-10-26 10:34:18
-tags: kafka
+tags: [教程,步骤]
+categories: kafka
 ---
 # 1、虚拟三台CentOS
 1、管理员模式启动 VMware。

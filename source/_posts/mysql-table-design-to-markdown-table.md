@@ -1,7 +1,8 @@
 ---
 title: mysql 表设计导出 markdown 表格
 date: 2021-02-02 17:42:48
-tags: mysql
+tags: [效率,文档]
+categories: mysql
 ---
 # 1 背景
 最近接了个 APP 重构的项目，后端是用 node.js 写的，数据存放在 mongodb，重构第一步是梳理清楚数据库设计，用 Navicat 设计好表后，要编写 markdown 格式的数据库设计文档，为了省时间，研究了一下表设计导出 markdown 表格，大大提高了效率。

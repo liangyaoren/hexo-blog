@@ -1,7 +1,8 @@
 ---
 title: kettle 踩过的坑
 date: 2020-08-26 08:45:24
-tags: kettle
+tags: [数据同步,踩坑]
+categories: kettle
 ---
 **之前用 kettle 做过专网到公安网的数据同步，踩过一些坑，记录一下。**
 

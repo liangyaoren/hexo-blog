@@ -1,7 +1,8 @@
 ---
 title: mysql 死锁测试
 date: 2020-10-24 14:45:11
-tags: mysql
+tags: 死锁
+categories: mysql
 ---
 #### 1. 创建测试表
 ```sql

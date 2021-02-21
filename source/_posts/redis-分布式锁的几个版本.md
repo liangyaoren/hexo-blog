@@ -1,7 +1,8 @@
 ---
 title: redis 分布式锁的几个版本
 date: 2020-11-17 08:49:27
-tags: redis
+tags: [redis,分布式,锁]
+categories: redis
 ---
 
 ## 1、版本一

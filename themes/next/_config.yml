@@ -81,9 +81,9 @@ creative_commons:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -463,6 +463,7 @@ index_with_subtitle: false
 exturl: false
 
 # Google Webmaster tools verification.
+# See: https://developers.google.com/search
 # See: https://developers.google.com/search
 google_site_verification:
 
@@ -933,3 +934,16 @@ vendors:
 css: css
 js: js
 images: images
+
+valine:
+  enable: false
+  appId: rzKxEH1bdKCXnTdpPibkz0Ky-gzGzoHsz
+  appKey:  GnaN8656JcRExxnVutmTgjug
+  serverURLs: https://notejava.com
+  placeholder: 欢迎评论 # comment box placeholder
+  avatar: mm # gravatar style
+  meta: [nick, mail, link] # Custom comment header
+  pageSize: 10 # pagination size
+  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+  recordIP: false # Whether to record the commenter IP
